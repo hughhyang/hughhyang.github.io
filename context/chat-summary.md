@@ -5,8 +5,8 @@
 ## 上次讨论内容
 
 - 仓库主题：**个人学术网站**（Jekyll Academic Pages），对标 davidlxu.github.io 风格改造。
-- 本地路径：`~/Projects/myWebsite/hughhyang.github.io`；远程 https://github.com/hughhyang/hughhyang.github.io ，默认分支 **`master`**。
-- 2026-05-16：从旧版多文件 `context/` 迁移到极简模板（`.cursorrules` + `chat-summary.md`）；口令为「同步上传 / 继续聊」。
+- 本地路径：`~/Projects/myWebsite`（仓库根目录即网站根目录）；远程 https://github.com/hughhyang/hughhyang.github.io ，默认分支 **`master`**。
+- 2026-05-16：从旧版多文件 `context/` 迁移到极简模板；`.cursorrules` 与 `context/` 放在 `myWebsite` 根目录（已去掉嵌套的 `hughhyang.github.io/` 与 `cursor-context-template/`）。
 
 ## 决策与结论
 
@@ -23,7 +23,7 @@
 ## 当前状态
 
 - 主页骨架已搭好，个人信息与论文条目多为占位/示例，待填写。
-- 上下文工作流已切到极简模板，待 push。
+- 目录已扁平化：在 Cursor 中直接打开 `~/Projects/myWebsite` 即可（无需再进子文件夹）。
 
 ## 下一步
 
